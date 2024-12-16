@@ -1,0 +1,127 @@
++<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#805B66"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- TextView to display the message -->
+    <TextView
+        android:gravity="center"
+        android:text="FOOD APP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF" />
+
+
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/foodImage1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/biriyani" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BIRIYANI"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" 150.00"/>
+
+
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/foodImage2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/noodles"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/foodName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOODLES"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" 160.00"
+        android:textSize="16sp"/>
+
+
+
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/foodImage3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/rice"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/foodName3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FRIEDRICE"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="180.00"/>
+
+
+
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/foodImage4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/alf"
+        android:layout_marginEnd="16dp"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/foodName4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ALFAHAM"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="120.00"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="Proceed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
